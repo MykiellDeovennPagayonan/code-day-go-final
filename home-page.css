@@ -296,3 +296,8 @@ h5{
   background-color: #F8982C;
   border-radius: 20px;
 }
+
+.spacer{
+  width: 100%;
+  height: 100px;
+}
