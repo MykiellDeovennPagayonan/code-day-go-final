@@ -140,11 +140,12 @@ h5{
 }
 
 .text{
-  width: 100%;
+  width: 92%;
   padding-top: 10%;
   margin-left: 8%;
   color: #FFFF;
   text-align: left;
+  display: inline-block;
   position: relative;
 }
 
@@ -269,9 +270,9 @@ h5{
 }
 
 .word {
-  color: rgba(248, 152, 44, 1);
+  color: white;
   font-family: "Roboto Slab";
-  font-size: 70px;
+  font-size: 60px;
   position: absolute;
   top: 25%;
   bottom: 25%;
@@ -288,16 +289,31 @@ h5{
   flex-wrap: wrap;
 }
 
-.boxes{
-  width: 350px;
-  height: 470px;
+.contents{
   margin: auto;
-  margin-bottom: 20px;
-  background-color: #F8982C;
-  border-radius: 20px;
+  height: 450px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-image{
+  height: 320px;
+  width: auto;
+  align-items: center;
+}
+
+.img2{
+
+}
+
+.text2{
+  color: white;
+  text-align: center;
 }
 
 .spacer{
   width: 100%;
-  height: 100px;
+  height: 150px;
 }
